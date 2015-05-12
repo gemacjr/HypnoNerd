@@ -7,6 +7,9 @@
 //
 
 #import "GMAppDelegate.h"
+#import "GMHypnosisViewController.h"
+
+#import "GMReminderViewController.h"
 
 @implementation GMAppDelegate
 
@@ -14,6 +17,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    GMHypnosisViewController *hvc = [[GMHypnosisViewController alloc] init];
+    
+    //self.window.rootViewController = hvc;
+    
+    // This will get a pointer to an object that represents the app bundle
+    NSBundle *appBundle = [NSBundle mainBundle];
+    
+    // Look in the appBundle for the file GMReminderViewController.xib
+    GMReminderViewController *rvc = [[GMReminderViewController alloc] initWithNibName:@"GMReminderViewController" bundle:appBundle];
+    
+    self.window.rootViewController = rvc;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

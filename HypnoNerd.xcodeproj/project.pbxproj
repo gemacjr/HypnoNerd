@@ -19,6 +19,10 @@
 		2C988B391B019CA000C4A014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C988B211B019C9F00C4A014 /* UIKit.framework */; };
 		2C988B411B019CA000C4A014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B3F1B019CA000C4A014 /* InfoPlist.strings */; };
 		2C988B431B019CA000C4A014 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B421B019CA000C4A014 /* HypnoNerdTests.m */; };
+		2C988B4E1B019D4400C4A014 /* GMHypnosisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B4D1B019D4400C4A014 /* GMHypnosisterView.m */; };
+		2C988B511B019D8E00C4A014 /* GMHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B501B019D8E00C4A014 /* GMHypnosisViewController.m */; };
+		2C988B541B019F3B00C4A014 /* GMReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B531B019F3B00C4A014 /* GMReminderViewController.m */; };
+		2C988B561B01A04C00C4A014 /* GMReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		2C988B3E1B019CA000C4A014 /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
 		2C988B401B019CA000C4A014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C988B421B019CA000C4A014 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		2C988B4C1B019D4400C4A014 /* GMHypnosisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMHypnosisterView.h; sourceTree = "<group>"; };
+		2C988B4D1B019D4400C4A014 /* GMHypnosisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMHypnosisterView.m; sourceTree = "<group>"; };
+		2C988B4F1B019D8E00C4A014 /* GMHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMHypnosisViewController.h; sourceTree = "<group>"; };
+		2C988B501B019D8E00C4A014 /* GMHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMHypnosisViewController.m; sourceTree = "<group>"; };
+		2C988B521B019F3B00C4A014 /* GMReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMReminderViewController.h; sourceTree = "<group>"; };
+		2C988B531B019F3B00C4A014 /* GMReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMReminderViewController.m; sourceTree = "<group>"; };
+		2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +118,15 @@
 		2C988B231B019C9F00C4A014 /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				2C988B4C1B019D4400C4A014 /* GMHypnosisterView.h */,
+				2C988B4D1B019D4400C4A014 /* GMHypnosisterView.m */,
+				2C988B4F1B019D8E00C4A014 /* GMHypnosisViewController.h */,
+				2C988B501B019D8E00C4A014 /* GMHypnosisViewController.m */,
 				2C988B2C1B019C9F00C4A014 /* GMAppDelegate.h */,
 				2C988B2D1B019C9F00C4A014 /* GMAppDelegate.m */,
+				2C988B521B019F3B00C4A014 /* GMReminderViewController.h */,
+				2C988B531B019F3B00C4A014 /* GMReminderViewController.m */,
+				2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */,
 				2C988B2F1B019C9F00C4A014 /* Images.xcassets */,
 				2C988B241B019C9F00C4A014 /* Supporting Files */,
 			);
@@ -221,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C988B281B019C9F00C4A014 /* InfoPlist.strings in Resources */,
+				2C988B561B01A04C00C4A014 /* GMReminderViewController.xib in Resources */,
 				2C988B301B019C9F00C4A014 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C988B2E1B019C9F00C4A014 /* GMAppDelegate.m in Sources */,
+				2C988B541B019F3B00C4A014 /* GMReminderViewController.m in Sources */,
+				2C988B511B019D8E00C4A014 /* GMHypnosisViewController.m in Sources */,
+				2C988B4E1B019D4400C4A014 /* GMHypnosisterView.m in Sources */,
 				2C988B2A1B019C9F00C4A014 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
