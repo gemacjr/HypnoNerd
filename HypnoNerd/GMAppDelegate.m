@@ -28,7 +28,12 @@
     // Look in the appBundle for the file GMReminderViewController.xib
     GMReminderViewController *rvc = [[GMReminderViewController alloc] initWithNibName:@"GMReminderViewController" bundle:appBundle];
     
-    self.window.rootViewController = rvc;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    
+    //self.window.rootViewController = rvc;
+    
+    self.window.rootViewController = tabBarController;
     
     
     self.window.backgroundColor = [UIColor whiteColor];

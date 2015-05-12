@@ -23,6 +23,10 @@
 		2C988B511B019D8E00C4A014 /* GMHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B501B019D8E00C4A014 /* GMHypnosisViewController.m */; };
 		2C988B541B019F3B00C4A014 /* GMReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C988B531B019F3B00C4A014 /* GMReminderViewController.m */; };
 		2C988B561B01A04C00C4A014 /* GMReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */; };
+		2C988B5B1B01A5CD00C4A014 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B571B01A5CD00C4A014 /* Hypno.png */; };
+		2C988B5C1B01A5CD00C4A014 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B581B01A5CD00C4A014 /* Hypno@2x.png */; };
+		2C988B5D1B01A5CD00C4A014 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B591B01A5CD00C4A014 /* Time.png */; };
+		2C988B5E1B01A5CD00C4A014 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C988B5A1B01A5CD00C4A014 /* Time@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		2C988B521B019F3B00C4A014 /* GMReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMReminderViewController.h; sourceTree = "<group>"; };
 		2C988B531B019F3B00C4A014 /* GMReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMReminderViewController.m; sourceTree = "<group>"; };
 		2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMReminderViewController.xib; sourceTree = "<group>"; };
+		2C988B571B01A5CD00C4A014 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		2C988B581B01A5CD00C4A014 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		2C988B591B01A5CD00C4A014 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		2C988B5A1B01A5CD00C4A014 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,10 @@
 				2C988B531B019F3B00C4A014 /* GMReminderViewController.m */,
 				2C988B551B01A04C00C4A014 /* GMReminderViewController.xib */,
 				2C988B2F1B019C9F00C4A014 /* Images.xcassets */,
+				2C988B571B01A5CD00C4A014 /* Hypno.png */,
+				2C988B581B01A5CD00C4A014 /* Hypno@2x.png */,
+				2C988B591B01A5CD00C4A014 /* Time.png */,
+				2C988B5A1B01A5CD00C4A014 /* Time@2x.png */,
 				2C988B241B019C9F00C4A014 /* Supporting Files */,
 			);
 			path = HypnoNerd;
@@ -238,8 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C988B5E1B01A5CD00C4A014 /* Time@2x.png in Resources */,
+				2C988B5D1B01A5CD00C4A014 /* Time.png in Resources */,
 				2C988B281B019C9F00C4A014 /* InfoPlist.strings in Resources */,
 				2C988B561B01A04C00C4A014 /* GMReminderViewController.xib in Resources */,
+				2C988B5B1B01A5CD00C4A014 /* Hypno.png in Resources */,
+				2C988B5C1B01A5CD00C4A014 /* Hypno@2x.png in Resources */,
 				2C988B301B019C9F00C4A014 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
